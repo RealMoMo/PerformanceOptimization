@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_used_memory"
+        android:text="@string/memory_used_percent"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.hht.memory.optimization.widget.WaveView
+        android:id="@+id/waveview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+</LinearLayout>

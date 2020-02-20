@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PerformanceOptimization</string>
+    <string name="memory_used_percent">Percent of memory used</string>
+</resources>
